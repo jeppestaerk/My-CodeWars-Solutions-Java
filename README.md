@@ -1,9 +1,9 @@
 # My Codewars Solutions (Java)
 
-## Codewars profile
-[![CodeWars](https://www.codewars.com/users/jeppestaerk/badges/large)](https://www.codewars.com/users/jeppestaerk)
+## Status
+### Codewars Profile
+[![CodeWars](https://www.codewars.com/users/jeppestaerk/badges/small)](https://www.codewars.com/users/jeppestaerk)
 
-## Build status
 ### Travis CI
 [![Build Status](https://travis-ci.org/jeppestaerk/My-CodeWars-Solutions-Java.svg?branch=master)](https://travis-ci.org/jeppestaerk/My-CodeWars-Solutions-Java)
 
