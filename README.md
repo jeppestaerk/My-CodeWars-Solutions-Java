@@ -11,7 +11,7 @@
 [![CircleCI](https://circleci.com/gh/jeppestaerk/My-CodeWars-Solutions-Java.svg?style=svg)](https://circleci.com/gh/jeppestaerk/My-CodeWars-Solutions-Java)
 
 ## My Solutions
-| kyu | Codeware Kate | My Solutions |
+| kyu | Codewars Kate | My Solutions |
 | --- | --- | --- |
 | 4 | [Number of Proper Fractions with Denominator d](https://www.codewars.com/kata/55b7bb74a0256d4467000070) | [NumberOfProperFractionsWithDenominatorD.java](https://github.com/jeppestaerk/My-CodeWars-Solutions-Java/blob/master/src/main/java/kata/kyu4/NumberOfProperFractionsWithDenominatorD.java) |
 | 4 | [Square into Squares. Protect trees!](https://www.codewars.com/kata/54eb33e5bc1a25440d000891) | [SquareIntoSquaresProtectTrees.java](SquareIntoSquaresProtectTrees.java) |
