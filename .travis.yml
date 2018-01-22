@@ -1,9 +1,0 @@
-language: java
-jdk:
-  - oraclejdk9
-before_install:
-  - ./gradlew clean
-install:
-  - ./gradlew assemble
-script:
-  - ./gradlew test
