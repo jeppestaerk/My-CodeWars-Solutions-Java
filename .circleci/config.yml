@@ -4,11 +4,6 @@ jobs:
     docker:
       - image: circleci/openjdk:9-jdk
 
-      # Specify service dependencies here if necessary
-      # CircleCI maintains a library of pre-built images
-      # documented at https://circleci.com/docs/2.0/circleci-images/
-      # - image: circleci/postgres:9.4
-
     working_directory: ~/repo
 
     environment:
@@ -28,6 +23,10 @@ jobs:
             - ~/.gradle
           key: v1-dependencies-{{ checksum "build.gradle" }}
 
+      - run: gradle clean
+
+      - run: gradle assemble
+
       - run: gradle test
 
       - run:
@@ -36,8 +35,6 @@ jobs:
             mkdir -p ~/junit/
             find . -type f -regex ".*/build/test-results/.*xml"
             find . -type f -regex ".*/build/test-results/.*xml" -exec cp {} ~/junit/ \;
-            mkdir -p $CIRCLE_TEST_REPORTS/junit
-            cp ~/junit/*.xml $CIRCLE_TEST_REPORTS/junit/
           when: always
 
       - store_test_results:
