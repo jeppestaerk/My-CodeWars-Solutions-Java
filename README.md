@@ -14,6 +14,7 @@ Ranks are used to indicate progression and difficulty. Code Warriors complete Ka
 
 *source: [Codewars Wiki Honor & Ranks](https://github.com/Codewars/codewars.com/wiki/Honor-&-Ranks#ranks)*
 
+<!--
 #### 1 Kyu
 **1 kyu** a proficient programming level. At this level kata are similar to 2 kyu but more challenging.
 * Advanced AI/machine learning algorithms
@@ -25,7 +26,8 @@ Ranks are used to indicate progression and difficulty. Code Warriors complete Ka
 | Codeware Kate | My Solutions | My Test Suite |
 | --- | --- | --- |
 | []() | []() | |
-
+-->
+<!--
 #### 2 Kyu
 **2 kyu** a proficient programming level. At this level kata require a mature understanding of complex programming concepts.
 * Complex AI/machine learning algorithms
@@ -38,7 +40,8 @@ Ranks are used to indicate progression and difficulty. Code Warriors complete Ka
 | Codeware Kate | My Solutions | My Test Suite |
 | --- | --- | --- |
 | []() | []() | |
-
+-->
+<!--
 #### 3 Kyu
 **3 kyu** a competent programming level. At this level the kata are similar to 4 kyu but are more challenging.
 * Computer science concepts utilizing advanced algorithms
@@ -51,7 +54,7 @@ Ranks are used to indicate progression and difficulty. Code Warriors complete Ka
 | Codeware Kate | My Solutions | My Test Suite |
 | --- | --- | --- |
 | []() | []() | |
-
+-->
 #### 4 Kyu
 **4 kyu** a competent programming level. At this level the kata begin to take some serious thought to complete.
 * Computer science concepts utilizing complex algorithms
