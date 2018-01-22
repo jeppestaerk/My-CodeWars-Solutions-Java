@@ -1,8 +1,11 @@
+plugins {
+    id 'java'
+    id 'jacoco'
+    id "org.sonarqube" version "2.6"
+}
+
 group 'io.staerk'
 version '0.1'
-
-apply plugin: 'java'
-apply plugin: 'jacoco'
 
 sourceCompatibility = 1.8
 
@@ -23,5 +26,13 @@ jacocoTestReport {
         xml.enabled true
         csv.enabled false
         html.enabled false
+    }
+}
+
+sonarqube {
+    properties {
+        property "sonar.organization", System.properties['SONARCLOUD_ORGANIZATION']
+        property "sonar.host.url", System.properties['SONARCLOUD_HOST']
+        property "sonar.login", System.properties['SONARCLOUD_TOKEN']
     }
 }
