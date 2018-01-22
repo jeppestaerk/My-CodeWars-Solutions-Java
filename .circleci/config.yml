@@ -9,6 +9,12 @@ jobs:
     environment:
       JVM_OPTS: -Xmx3200m
       TERM: dumb
+      CC_TEST_REPORTER_ID: $CC_TEST_REPORTER_ID
+
+    dependencies:
+      post:
+        - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+        - chmod +x ./cc-test-reporter
 
     steps:
       - checkout
@@ -28,6 +34,10 @@ jobs:
       - run: gradle assemble
 
       - run: gradle test
+          pre:
+              - ./cc-test-reporter before-build
+          post:
+              - ./cc-test-reporter after-build --exit-code $EXIT_CODE
 
       - run:
           name: Save test results
