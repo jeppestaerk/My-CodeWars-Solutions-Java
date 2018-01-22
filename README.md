@@ -1,9 +1,9 @@
 # My Codewars Solutions (Java)
 
 ## Status
-| Codewars Rating | Travis CI | Circle CI |
-| --- | --- | --- |
-| [![CodeWars](https://www.codewars.com/users/jeppestaerk/badges/micro)](https://www.codewars.com/users/jeppestaerk) | [![Build Status](https://travis-ci.org/jeppestaerk/My-CodeWars-Solutions-Java.svg?branch=master)](https://travis-ci.org/jeppestaerk/My-CodeWars-Solutions-Java) | [![CircleCI](https://circleci.com/gh/jeppestaerk/My-CodeWars-Solutions-Java.svg?style=svg)](https://circleci.com/gh/jeppestaerk/My-CodeWars-Solutions-Java) |
+| Rating | Build | Maintainability | Test Coverage |
+| --- | --- | --- | --- |
+| [![CodeWars](https://www.codewars.com/users/jeppestaerk/badges/micro)](https://www.codewars.com/users/jeppestaerk) | [![CircleCI](https://circleci.com/gh/jeppestaerk/My-CodeWars-Solutions-Java.svg?style=svg)](https://circleci.com/gh/jeppestaerk/My-CodeWars-Solutions-Java) | [![Maintainability](https://api.codeclimate.com/v1/badges/7bfe5475fc5a7393813f/maintainability)](https://codeclimate.com/github/jeppestaerk/My-CodeWars-Solutions-Java/maintainability) | [![Test Coverage](https://api.codeclimate.com/v1/badges/7bfe5475fc5a7393813f/test_coverage)](https://codeclimate.com/github/jeppestaerk/My-CodeWars-Solutions-Java/test_coverage) |
 
 ## My Solutions
 | kyu | Codewars Kate | My Solutions |
