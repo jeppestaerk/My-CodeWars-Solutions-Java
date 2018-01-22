@@ -43,7 +43,7 @@
 Ranks are used to indicate progression and difficulty. Code Warriors complete Kata which are assigned a rank, which in turn earns them a higher rank once they complete enough of them. There are two classes of ranks, Kyu and Dan. You begin with Kyu at level 8 and work your way down to level 1. Then you progress to Dan, where you work your way up from level 1 to level 8.
 
 <!--
-**1 kyu** kata represent a proficient programming level.
+### **1 kyu** kata represent a proficient programming level.
 
 At this level kata are similar to 2 kyu but more challenging. They may include concepts such as:
 * Advanced AI/machine learning algorithms
@@ -51,7 +51,7 @@ At this level kata are similar to 2 kyu but more challenging. They may include c
 * Complex Mini-programs with multiple feature requirements (such as a complete markdown parser)
 -->
 <!--
-**2 kyu** kata represent a proficient programming level.
+### **2 kyu** kata represent a proficient programming level.
 
 At this level kata require a mature understanding of complex programming concepts - concepts such as:
 * Complex AI/machine learning algorithms
@@ -60,7 +60,7 @@ At this level kata require a mature understanding of complex programming concept
 * Basic mini-programs with multiple feature requirements (such as a basic markdown parser)
 -->
 <!--
-**3 kyu** kata represent a competent programming level.
+### **3 kyu** kata represent a competent programming level.
 
 At this level the kata are similar to 4 kyu but are more challenging. They include tasks that may handle:
 * Computer science concepts utilizing advanced algorithms
@@ -68,7 +68,7 @@ At this level the kata are similar to 4 kyu but are more challenging. They inclu
 * Basic AI/machine learning algorithms
 * Detailed usage of advanced concepts such as concurrency, parallelism and cryptography
 -->
-**4 kyu** kata represent a competent programming level.
+### **4 kyu** kata represent a competent programming level.
 
 At this level the kata begin to take some serious thought to complete. They include tasks that may handle:
 * Computer science concepts utilizing complex algorithms
@@ -76,7 +76,7 @@ At this level the kata begin to take some serious thought to complete. They incl
 * Understanding intricate business requirements
 * Advanced concepts such as concurrency, parallelism, meta programming and cryptography
 
-**5 kyu** kata represent a novice programming level.
+### **5 kyu** kata represent a novice programming level.
 
 At this level the kata are similar to 6 kyu but more challenging. It includes:
 * Complex language features that require mature OOP/Functional concepts
@@ -84,7 +84,7 @@ At this level the kata are similar to 6 kyu but more challenging. It includes:
 * Complex Design Patterns
 * Advanced regular expression usage
 
-**6 kyu** kata represent a novice programming level.
+### **6 kyu** kata represent a novice programming level.
 
 At this level the kata will start to include more advanced algorithmic challenges and more complex language features. It includes:
 * Complex language features (closures, scopes, monads, etc)
@@ -92,7 +92,7 @@ At this level the kata will start to include more advanced algorithmic challenge
 * Basic Design Patterns
 * Complex Regular Expressions
 
-**7 kyu** kata represent a beginner programming level.
+### **7 kyu** kata represent a beginner programming level.
 
 At this level the kata will generally challenge users on their core language and API reference knowledge. Tasks such as:
 * Iterating arrays and returning a subset of values
@@ -100,7 +100,7 @@ At this level the kata will generally challenge users on their core language and
 * Basic functional or object-oriented concepts
 * Basic Regular Expressions
 
-**8 kyu** kata represent a beginner level.
+### **8 kyu** kata represent a beginner level.
 
 At this level the kata is only challenging for users new to programming. This includes programming tasks such as:
 * Defining a simple function (i.e. hello world)
