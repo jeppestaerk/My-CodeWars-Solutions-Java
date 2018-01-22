@@ -14,4 +14,9 @@ public class VasyaClerkTest {
     public void test2() {
         assertEquals("NO", VasyaClerk.Tickets(new int[]{25, 100}));
     }
+
+    @Test
+    public void test3() {
+        assertEquals("YES", VasyaClerk.Tickets(new int[]{25, 50, 100}));
+    }
 }
