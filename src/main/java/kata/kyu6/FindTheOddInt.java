@@ -4,9 +4,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class FindTheOddInt {
-    public static int findIt(int[] A) {
+    public static int findIt(int[] a) {
         HashMap<Integer, Integer> map = new HashMap<>();
-        for (int number : A) {
+        for (int number : a) {
             int count = map.getOrDefault(number, 0);
             map.put(number, count + 1);
         }

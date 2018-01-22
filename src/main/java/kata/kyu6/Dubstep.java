@@ -1,7 +1,7 @@
 package kata.kyu6;
 
 public class Dubstep {
-    public static String SongDecoder(String song) {
+    public static String songDecoder(String song) {
         return song.replaceAll("(WUB)+", " ").trim();
     }
 }

@@ -1,7 +1,7 @@
 package kata.kyu6;
 
 public class VasyaClerk {
-    public static String Tickets(int[] peopleInLine) {
+    public static String tickets(int[] peopleInLine) {
         int d25 = 0;
         int d50 = 0;
         for (int i = 0; i < peopleInLine.length; i++) {
