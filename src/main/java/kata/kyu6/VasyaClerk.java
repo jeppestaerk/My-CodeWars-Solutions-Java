@@ -18,7 +18,7 @@ public class VasyaClerk {
                     d25 -= 3;
                 }
             }
-            if (d25 < 0 || d50 < 0) return "NO";
+            if (d25 < 0) return "NO";
         }
         return "YES";
     }
