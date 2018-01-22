@@ -31,7 +31,7 @@ jobs:
             chmod +x ./cc-test-reporter
             ./cc-test-reporter before-build
             gradle clean test jacocoTestReport
-            ./cc-test-reporter format-coverage -d -t jacoco /build/report/jacoco/test/jacocoTestReport.xml
+            ./cc-test-reporter format-coverage -d -t jacoco ./build/report/jacoco/test/jacocoTestReport.xml
             ./cc-test-reporter upload-coverage -d
 
       - run:
