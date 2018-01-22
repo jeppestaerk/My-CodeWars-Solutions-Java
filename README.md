@@ -22,6 +22,10 @@ Ranks are used to indicate progression and difficulty. Code Warriors complete Ka
 
 *source: [Codewars Wiki Kata Ranking](https://github.com/Codewars/codewars.com/wiki/Kata-Ranking#1-kyu)*
 
+| Codeware Kate | My Solutions | My Test Suite |
+| --- | --- | --- |
+| []() | []() | |
+
 #### 2 Kyu
 **2 kyu** a proficient programming level. At this level kata require a mature understanding of complex programming concepts.
 * Complex AI/machine learning algorithms
@@ -30,6 +34,10 @@ Ranks are used to indicate progression and difficulty. Code Warriors complete Ka
 * Basic mini-programs with multiple feature requirements (such as a basic markdown parser)
 
 *source: [Codewars Wiki Kata Ranking](https://github.com/Codewars/codewars.com/wiki/Kata-Ranking#2-kyu)*
+
+| Codeware Kate | My Solutions | My Test Suite |
+| --- | --- | --- |
+| []() | []() | |
 
 #### 3 Kyu
 **3 kyu** a competent programming level. At this level the kata are similar to 4 kyu but are more challenging.
@@ -40,6 +48,10 @@ Ranks are used to indicate progression and difficulty. Code Warriors complete Ka
 
 *source: [Codewars Wiki Kata Ranking](https://github.com/Codewars/codewars.com/wiki/Kata-Ranking#3-kyu)*
 
+| Codeware Kate | My Solutions | My Test Suite |
+| --- | --- | --- |
+| []() | []() | |
+
 #### 4 Kyu
 **4 kyu** a competent programming level. At this level the kata begin to take some serious thought to complete.
 * Computer science concepts utilizing complex algorithms
@@ -48,6 +60,14 @@ Ranks are used to indicate progression and difficulty. Code Warriors complete Ka
 * Advanced concepts such as concurrency, parallelism, meta programming and cryptography
 
 *source: [Codewars Wiki Kata Ranking](https://github.com/Codewars/codewars.com/wiki/Kata-Ranking#4-kyu)*
+
+| Codeware Kate | My Solutions | My Test Suite |
+| --- | --- | --- |
+| [Number of Proper Fractions with Denominator d](https://www.codewars.com/kata/55b7bb74a0256d4467000070) | [NumberOfProperFractionsWithDenominatorD.java](https://github.com/jeppestaerk/My-CodeWars-Solutions-Java/blob/master/src/main/java/kata/kyu4/NumberOfProperFractionsWithDenominatorD.java) | |
+| [Square into Squares. Protect trees!](https://www.codewars.com/kata/54eb33e5bc1a25440d000891) | [SquareIntoSquaresProtectTrees.java](SquareIntoSquaresProtectTrees.java) | |
+| [Recover a secret string from random triplets](https://www.codewars.com/kata/53f40dff5f9d31b813000774) | [RecoverASecretStringFromRandomTriplets.java](https://github.com/jeppestaerk/My-CodeWars-Solutions-Java/blob/master/src/main/java/kata/kyu4/RecoverASecretStringFromRandomTriplets.java) | |
+| [Sum by Factors](https://www.codewars.com/kata/54d496788776e49e6b00052f) | [SumByFactors.java](https://github.com/jeppestaerk/My-CodeWars-Solutions-Java/blob/master/src/main/java/kata/kyu4/SumByFactors.java) | |
+| [Codewars style ranking system](https://www.codewars.com/kata/51fda2d95d6efda45e00004e) | [CodewarsStyleRankingSystem.java](https://github.com/jeppestaerk/My-CodeWars-Solutions-Java/blob/master/src/main/java/kata/kyu4/CodewarsStyleRankingSystem.java) | |
 
 #### 5 Kyu
 **5 kyu** a novice programming level. At this level the kata are similar to 6 kyu but more challenging
@@ -58,6 +78,11 @@ Ranks are used to indicate progression and difficulty. Code Warriors complete Ka
 
 *source: [Codewars Wiki Kata Ranking](https://github.com/Codewars/codewars.com/wiki/Kata-Ranking#5-kyu)*
 
+| Codeware Kate | My Solutions | My Test Suite |
+| --- | --- | --- |
+| [Scramblies](https://www.codewars.com/kata/55c04b4cc56a697bb0000048) | [Scramblies.java](https://github.com/jeppestaerk/My-CodeWars-Solutions-Java/blob/master/src/main/java/kata/kyu5/Scramblies.java) | |
+| [Convert string to camel case](https://www.codewars.com/kata/517abf86da9663f1d2000003) | [ConvertStringToCamelCase.java](https://github.com/jeppestaerk/My-CodeWars-Solutions-Java/blob/master/src/main/java/kata/kyu5/ConvertStringToCamelCase.java) | |
+
 #### 6 Kyu
 **6 kyu** a novice programming level. At this level the kata will start to include more advanced algorithmic challenges and more complex language features.
 * Complex language features (closures, scopes, monads, etc)
@@ -66,6 +91,20 @@ Ranks are used to indicate progression and difficulty. Code Warriors complete Ka
 * Complex Regular Expressions
 
 *source: [Codewars Wiki Kata Ranking](https://github.com/Codewars/codewars.com/wiki/Kata-Ranking#6-kyu)*
+
+| Codeware Kate | My Solutions | My Test Suite |
+| --- | --- | --- |
+| [Vasya - Clerk](https://www.codewars.com/kata/555615a77ebc7c2c8a0000b8) | [VasyaClerk.java](https://github.com/jeppestaerk/My-CodeWars-Solutions-Java/blob/master/src/main/java/kata/kyu6/VasyaClerk.java) | |
+| [Dubstep](https://www.codewars.com/kata/551dc350bf4e526099000ae5) | [Dubstep.java](https://github.com/jeppestaerk/My-CodeWars-Solutions-Java/blob/master/src/main/java/kata/kyu6/Dubstep.java) | |
+| [Triple trouble](https://www.codewars.com/kata/55d5434f269c0c3f1b000058) | [TripleTrouble.java](https://github.com/jeppestaerk/My-CodeWars-Solutions-Java/blob/master/src/main/java/kata/kyu6/TripleTrouble.java) | |
+| [Give me a Diamond](https://www.codewars.com/kata/5503013e34137eeeaa001648) | [GiveMeADiamond.java](https://github.com/jeppestaerk/My-CodeWars-Solutions-Java/blob/master/src/main/java/kata/kyu6/GiveMeADiamond.java) | |
+| [Bouncing Balls](https://www.codewars.com/kata/5544c7a5cb454edb3c000047) | [BouncingBalls.java](https://github.com/jeppestaerk/My-CodeWars-Solutions-Java/blob/master/src/main/java/kata/kyu6/BouncingBalls.java) | |
+| [Your order, please](https://www.codewars.com/kata/55c45be3b2079eccff00010f) | [YourOrderPlease.java](https://github.com/jeppestaerk/My-CodeWars-Solutions-Java/blob/master/src/main/java/kata/kyu6/YourOrderPlease.java) | |
+| [Equal Sides Of An Array](https://www.codewars.com/kata/5679aa472b8f57fb8c000047) | [EqualSidesOfAnArray.java](https://github.com/jeppestaerk/My-CodeWars-Solutions-Java/blob/master/src/main/java/kata/kyu6/EqualSidesOfAnArray.java) | |
+| [Find the missing letter](https://www.codewars.com/kata/5839edaa6754d6fec10000a2) | [FindTheMissingLetter.java](https://github.com/jeppestaerk/My-CodeWars-Solutions-Java/blob/master/src/main/java/kata/kyu6/FindTheMissingLetter.java) | |
+| [Build a pile of Cubes](https://www.codewars.com/kata/5592e3bd57b64d00f3000047) | [BuildAPileOfCubes.java](https://github.com/jeppestaerk/My-CodeWars-Solutions-Java/blob/master/src/main/java/kata/kyu6/BuildAPileOfCubes.java) | |
+| [Find the odd int](https://www.codewars.com/kata/54da5a58ea159efa38000836) | [FindTheOddInt.java](https://github.com/jeppestaerk/My-CodeWars-Solutions-Java/blob/master/src/main/java/kata/kyu6/FindTheOddInt.java) | |
+
 
 #### 7 Kyu
 **7 kyu** a beginner programming level. At this level the kata will generally challenge users on their core language and API reference knowledge.
@@ -76,41 +115,15 @@ Ranks are used to indicate progression and difficulty. Code Warriors complete Ka
 
 *source: [Codewars Wiki Kata Ranking](https://github.com/Codewars/codewars.com/wiki/Kata-Ranking#7-kyu)*
 
-##### [Growth of a Population](https://github.com/jeppestaerk/My-CodeWars-Solutions-Java/blob/master/src/main/java/kata/kyu7/GrowthOfAPopulation.java)
-In a small town the population is ```p0 = 1000``` at the beginning of a year. The population regularly increases by ```2 percent``` per year and moreover ```50``` new inhabitants per year come to live in the town. How many years does the town need to see its population greater or equal to ```p = 1200``` inhabitants?
+| Codeware Kate | My Solutions | My Test Suite |
+| --- | --- | --- |
+| [Shortest Word](https://www.codewars.com/kata/57cebe1dc6fdc20c57000ac9) | [ShortestWord.java](https://github.com/jeppestaerk/My-CodeWars-Solutions-Java/blob/master/src/main/java/kata/kyu7/ShortestWord.java) | |
+| [Jaden Casing Strings](https://www.codewars.com/kata/5390bac347d09b7da40006f6) | [JadenCasingStrings.java](https://github.com/jeppestaerk/My-CodeWars-Solutions-Java/blob/master/src/main/java/kata/kyu7/JadenCasingStrings.java) | |
+| [Ones and Zeros](https://www.codewars.com/kata/578553c3a1b8d5c40300037c) | [OnesAndZeros.java](https://github.com/jeppestaerk/My-CodeWars-Solutions-Java/blob/master/src/main/java/kata/kyu7/OnesAndZeros.java) | |
+| [Money, Money, Money](https://www.codewars.com/kata/563f037412e5ada593000114) | [MoneyMoneyMoney.java](https://github.com/jeppestaerk/My-CodeWars-Solutions-Java/blob/master/src/main/java/kata/kyu7/MoneyMoneyMoney.java) | |
+| [Descending Order](https://www.codewars.com/kata/5467e4d82edf8bbf40000155) | [DescendingOrder.java](https://github.com/jeppestaerk/My-CodeWars-Solutions-Java/blob/master/src/main/java/kata/kyu7/DescendingOrder.java) | |
+| [Growth of a Population](https://www.codewars.com/kata/563b662a59afc2b5120000c6) | [GrowthOfAPopulation.java](https://github.com/jeppestaerk/My-CodeWars-Solutions-Java/blob/master/src/main/java/kata/kyu7/GrowthOfAPopulation.java) | |
 
-```
-At the end of the first year there will be:
-1000 + 1000 * 0.02 + 50 => 1070 inhabitants
-
-At the end of the 2nd year there will be:
-1070 + 1070 * 0.02 + 50 => 1141 inhabitants (number of inhabitants is an integer)
-
-At the end of the 3rd year there will be:
-1141 + 1141 * 0.02 + 50 => 1213
-
-It will need 3 entire years.
-```
-
-More generally given parameters:
-
-```
-p0, percent, aug (inhabitants coming or leaving each year), p (population to surpass)
-```
-
-the function ```nb_year``` should return ```n``` number of entire years needed to get a population greater or equal to ```p```.
-
-aug is an integer, percent a positive or null number, p0 and p are positive integers (> 0)
-
-```
-Examples:
-nb_year(1500, 5, 100, 5000) -> 15
-nb_year(1500000, 2.5, 10000, 2000000) -> 10
-```
-
-Note: Don't forget to convert the percent parameter as a percentage in the body of your function: if the parameter percent is 2 you have to convert it to 0.02.
-
-*source: [Codewars 7 kyu - Growth of a Population](https://www.codewars.com/kata/50654ddff44f800200000004)*
 
 #### 8 Kyu
 **8 kyu** a beginner level. At this level the kata is only challenging for users new to programming.
@@ -121,6 +134,7 @@ Note: Don't forget to convert the percent parameter as a percentage in the body 
 
 *source: [Codewars Wiki Kata Ranking](https://github.com/Codewars/codewars.com/wiki/Kata-Ranking#8-kyu)*
 
-##### [Multiply](https://github.com/jeppestaerk/My-CodeWars-Solutions-Java/blob/master/src/main/java/kata/kyu8/Multiply.java)
-The code does not execute properly. Try to figure out why.
-*source: [Codewars 8 kyu - Multiply](https://www.codewars.com/kata/50654ddff44f800200000004)*
+| Codeware Kate | My Solutions | My Test Suite |
+| --- | --- | --- |
+| [Remove String Spaces](https://www.codewars.com/kata/57eae20f5500ad98e50002c5) | [RemoveStringSpaces.java](https://github.com/jeppestaerk/My-CodeWars-Solutions-Java/blob/master/src/main/java/kata/kyu8/RemoveStringSpaces.java) | |
+| [Multiply](https://www.codewars.com/kata/50654ddff44f800200000004) | [Multiply.java](https://github.com/jeppestaerk/My-CodeWars-Solutions-Java/blob/master/src/main/java/kata/kyu8/Multiply.java) | |
