@@ -1,9 +1,9 @@
 # My Codewars Solutions (Java)
 
 ## Status
-| Codewars Profile | Travis CI | Circle CI |
+| Codewars Rating | Travis CI | Circle CI |
 | --- | --- | --- |
-| [![CodeWars](https://www.codewars.com/users/jeppestaerk/badges/small)](https://www.codewars.com/users/jeppestaerk) | [![Build Status](https://travis-ci.org/jeppestaerk/My-CodeWars-Solutions-Java.svg?branch=master)](https://travis-ci.org/jeppestaerk/My-CodeWars-Solutions-Java) | [![CircleCI](https://circleci.com/gh/jeppestaerk/My-CodeWars-Solutions-Java.svg?style=svg)](https://circleci.com/gh/jeppestaerk/My-CodeWars-Solutions-Java) |
+| [![CodeWars](https://www.codewars.com/users/jeppestaerk/badges/micro)](https://www.codewars.com/users/jeppestaerk) | [![Build Status](https://travis-ci.org/jeppestaerk/My-CodeWars-Solutions-Java.svg?branch=master)](https://travis-ci.org/jeppestaerk/My-CodeWars-Solutions-Java) | [![CircleCI](https://circleci.com/gh/jeppestaerk/My-CodeWars-Solutions-Java.svg?style=svg)](https://circleci.com/gh/jeppestaerk/My-CodeWars-Solutions-Java) |
 
 ## My Solutions
 | kyu | Codewars Kate | My Solutions |
