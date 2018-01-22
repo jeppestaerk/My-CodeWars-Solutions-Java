@@ -15,17 +15,17 @@ public class CodewarsStyleRankingSystemTest {
 
     @Test(expected = IllegalArgumentException.class)
     public void invalidRangeNeg9() {
-        user.incProgress(-9);
+        new CodewarsStyleRankingSystem.User().incProgress(-9);
     }
 
     @Test(expected = IllegalArgumentException.class)
     public void invalidRange0() {
-        user.incProgress(0);
+        new CodewarsStyleRankingSystem.User().incProgress(0);
     }
 
     @Test(expected = IllegalArgumentException.class)
     public void invalidRange9() {
-        user.incProgress(9);
+        new CodewarsStyleRankingSystem.User().incProgress(9);
     }
 
     @Test

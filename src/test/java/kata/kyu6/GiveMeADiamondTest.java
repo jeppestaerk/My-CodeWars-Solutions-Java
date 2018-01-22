@@ -8,12 +8,12 @@ public class GiveMeADiamondTest {
 
     @Test
     public void testDiamondNull1() {
-        assertEquals(null, GiveMeADiamond.print(2));
+        assertEquals(null, new GiveMeADiamond().print(2));
     }
 
     @Test
     public void testDiamondNull2() {
-        assertEquals(null, GiveMeADiamond.print(-1));
+        assertEquals(null, new GiveMeADiamond().print(-1));
     }
 
     @Test
@@ -23,7 +23,7 @@ public class GiveMeADiamondTest {
         expected.append("***\n");
         expected.append(" *\n");
 
-        assertEquals(expected.toString(), GiveMeADiamond.print(3));
+        assertEquals(expected.toString(), new GiveMeADiamond().print(3));
     }
 
     @Test
@@ -35,6 +35,6 @@ public class GiveMeADiamondTest {
         expected.append(" ***\n");
         expected.append("  *\n");
 
-        assertEquals(expected.toString(), GiveMeADiamond.print(5));
+        assertEquals(expected.toString(), new GiveMeADiamond().print(5));
     }
 }

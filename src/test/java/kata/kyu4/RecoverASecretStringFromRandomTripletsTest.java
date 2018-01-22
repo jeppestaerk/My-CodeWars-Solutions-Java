@@ -1,18 +1,10 @@
 package kata.kyu4;
 
-import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
 public class RecoverASecretStringFromRandomTripletsTest {
-
-    private RecoverASecretStringFromRandomTriplets detective;
-
-    @Before
-    public void setup() {
-        detective = new RecoverASecretStringFromRandomTriplets();
-    }
 
     @Test
     public void secret1() {
@@ -25,7 +17,7 @@ public class RecoverASecretStringFromRandomTripletsTest {
                 {'t', 'i', 's'},
                 {'w', 'h', 's'}
         };
-        assertEquals("whatisup", detective.recoverSecret(triplets));
+        assertEquals("whatisup", new RecoverASecretStringFromRandomTriplets().recoverSecret(triplets));
     }
 
     @Test
@@ -49,7 +41,7 @@ public class RecoverASecretStringFromRandomTripletsTest {
                 {'m', 's', 'n'},
                 {'m', 's', 'u'}
         };
-        assertEquals("mathisfun", detective.recoverSecret(triplets));
+        assertEquals("mathisfun", new RecoverASecretStringFromRandomTriplets().recoverSecret(triplets));
     }
 
     @Test
@@ -67,7 +59,7 @@ public class RecoverASecretStringFromRandomTripletsTest {
                 {'n', 'g', 's'},
                 {'o', 'a', 's'}
         };
-        assertEquals("congrats", detective.recoverSecret(triplets));
+        assertEquals("congrats", new RecoverASecretStringFromRandomTriplets().recoverSecret(triplets));
     }
 
     @Test
@@ -84,7 +76,7 @@ public class RecoverASecretStringFromRandomTripletsTest {
                 {'o', 'l', 'v'},
                 {'l', 'v', 'd'}
         };
-        assertEquals("solved", detective.recoverSecret(triplets));
+        assertEquals("solved", new RecoverASecretStringFromRandomTriplets().recoverSecret(triplets));
     }
 
     @Test
@@ -565,6 +557,6 @@ public class RecoverASecretStringFromRandomTripletsTest {
                 {'h', 'm', 'n'},
                 {'s', 'v', 'x'}
         };
-        assertEquals("abcdefghijklmnopqrstuvwxyz", detective.recoverSecret(triplets));
+        assertEquals("abcdefghijklmnopqrstuvwxyz", new RecoverASecretStringFromRandomTriplets().recoverSecret(triplets));
     }
 }
