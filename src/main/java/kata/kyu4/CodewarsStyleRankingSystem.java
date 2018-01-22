@@ -7,8 +7,8 @@ public class CodewarsStyleRankingSystem {
     }
 
     public static class User {
-        public int rank = -8;
-        public int progress = 0;
+        int rank = -8;
+        int progress = 0;
 
         public void incProgress(int aRank) {
             if (aRank < -8 || aRank > 8 || aRank == 0) throw new IllegalArgumentException();
