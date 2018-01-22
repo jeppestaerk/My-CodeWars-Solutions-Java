@@ -33,9 +33,10 @@ jobs:
           name: Save test results
           command: |
             mkdir -p ~/junit/
-            find . -type f -regex ".*/build/test-results/.*xml"
             find . -type f -regex ".*/build/test-results/.*xml" -exec cp {} ~/junit/ \;
-            find ~ -type f -regex ".*/junit/.*xml"
+            ls ~/junit
+            cp ~/junit/*.xml $CIRCLE_TEST_REPORTS/
+            ls $CIRCLE_TEST_REPORTS
           when: always
 
       - store_test_results:
