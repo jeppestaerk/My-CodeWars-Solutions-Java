@@ -27,20 +27,15 @@ jobs:
       - run:
           name: Setup Code Climate test-reporter
           command: |
+            echo $CC_TEST_REPORTER_ID
             curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
             chmod +x ./cc-test-reporter
 
       - run:
-          name: Code Climate test-reporter before-build
+          name: Run tests
           command: |
             ./cc-test-reporter before-build
-
-      - run: gradle test
-      - run: gradle jacocoTestReport
-
-      - run:
-          name: Code Climate test-reporter after-build
-          command: |
+            gradle clean test jacocoTestReport
             ./cc-test-reporter after-build --coverage-input-type jacoco
 
       - run:
