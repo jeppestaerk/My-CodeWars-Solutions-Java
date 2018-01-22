@@ -24,15 +24,11 @@ jobs:
           key: v1-dependencies-{{ checksum "build.gradle" }}
 
       - run:
-          name: Setup Code Climate test-reporter
+          name: Run tests
           command: |
             echo $CC_TEST_REPORTER_ID
             curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
             chmod +x ./cc-test-reporter
-
-      - run:
-          name: Run tests
-          command: |
             ./cc-test-reporter before-build
             gradle clean test jacocoTestReport
             ./cc-test-reporter format-coverage -d -t jacoco /build/report/jacoco/test/jacocoTestReport.xml
