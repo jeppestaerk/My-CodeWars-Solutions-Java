@@ -15,8 +15,7 @@ Ranks are used to indicate progression and difficulty. Code Warriors complete Ka
 *source: [Codewars Wiki Honor & Ranks](https://github.com/Codewars/codewars.com/wiki/Honor-&-Ranks#ranks)*
 
 <!--
-#### 1 Kyu
-**1 kyu** a proficient programming level. At this level kata are similar to 2 kyu but more challenging.
+#### **1 kyu** a proficient programming level. At this level kata are similar to 2 kyu but more challenging.
 * Advanced AI/machine learning algorithms
 * Complex interpreters and compilers
 * Complex Mini-programs with multiple feature requirements (such as a complete markdown parser)
@@ -28,8 +27,7 @@ Ranks are used to indicate progression and difficulty. Code Warriors complete Ka
 | []() | []() | |
 -->
 <!--
-#### 2 Kyu
-**2 kyu** a proficient programming level. At this level kata require a mature understanding of complex programming concepts.
+#### **2 kyu** a proficient programming level. At this level kata require a mature understanding of complex programming concepts.
 * Complex AI/machine learning algorithms
 * Reverse engineering techniques
 * Basic interpreters and compilers
@@ -42,8 +40,7 @@ Ranks are used to indicate progression and difficulty. Code Warriors complete Ka
 | []() | []() | |
 -->
 <!--
-#### 3 Kyu
-**3 kyu** a competent programming level. At this level the kata are similar to 4 kyu but are more challenging.
+#### **3 kyu** a competent programming level. At this level the kata are similar to 4 kyu but are more challenging.
 * Computer science concepts utilizing advanced algorithms
 * Ability to implement advanced requirements in a scalable fashion
 * Basic AI/machine learning algorithms
@@ -55,8 +52,7 @@ Ranks are used to indicate progression and difficulty. Code Warriors complete Ka
 | --- | --- | --- |
 | []() | []() | |
 -->
-#### 4 Kyu
-**4 kyu** a competent programming level. At this level the kata begin to take some serious thought to complete.
+#### **4 kyu** a competent programming level. At this level the kata begin to take some serious thought to complete.
 * Computer science concepts utilizing complex algorithms
 * Advanced design patterns
 * Understanding intricate business requirements
@@ -72,8 +68,7 @@ Ranks are used to indicate progression and difficulty. Code Warriors complete Ka
 | [Sum by Factors](https://www.codewars.com/kata/54d496788776e49e6b00052f) | [SumByFactors.java](https://github.com/jeppestaerk/My-CodeWars-Solutions-Java/blob/master/src/main/java/kata/kyu4/SumByFactors.java) | |
 | [Codewars style ranking system](https://www.codewars.com/kata/51fda2d95d6efda45e00004e) | [CodewarsStyleRankingSystem.java](https://github.com/jeppestaerk/My-CodeWars-Solutions-Java/blob/master/src/main/java/kata/kyu4/CodewarsStyleRankingSystem.java) | |
 
-#### 5 Kyu
-**5 kyu** a novice programming level. At this level the kata are similar to 6 kyu but more challenging
+#### **5 kyu** a novice programming level. At this level the kata are similar to 6 kyu but more challenging
 * Complex language features that require mature OOP/Functional concepts
 * Advanced OOP/Functional concepts
 * Complex Design Patterns
@@ -86,8 +81,7 @@ Ranks are used to indicate progression and difficulty. Code Warriors complete Ka
 | [Scramblies](https://www.codewars.com/kata/55c04b4cc56a697bb0000048) | [Scramblies.java](https://github.com/jeppestaerk/My-CodeWars-Solutions-Java/blob/master/src/main/java/kata/kyu5/Scramblies.java) | |
 | [Convert string to camel case](https://www.codewars.com/kata/517abf86da9663f1d2000003) | [ConvertStringToCamelCase.java](https://github.com/jeppestaerk/My-CodeWars-Solutions-Java/blob/master/src/main/java/kata/kyu5/ConvertStringToCamelCase.java) | |
 
-#### 6 Kyu
-**6 kyu** a novice programming level. At this level the kata will start to include more advanced algorithmic challenges and more complex language features.
+#### **6 kyu** a novice programming level. At this level the kata will start to include more advanced algorithmic challenges and more complex language features.
 * Complex language features (closures, scopes, monads, etc)
 * Complex OOP/Functional concepts
 * Basic Design Patterns
@@ -109,8 +103,7 @@ Ranks are used to indicate progression and difficulty. Code Warriors complete Ka
 | [Find the odd int](https://www.codewars.com/kata/54da5a58ea159efa38000836) | [FindTheOddInt.java](https://github.com/jeppestaerk/My-CodeWars-Solutions-Java/blob/master/src/main/java/kata/kyu6/FindTheOddInt.java) | |
 
 
-#### 7 Kyu
-**7 kyu** a beginner programming level. At this level the kata will generally challenge users on their core language and API reference knowledge.
+#### **7 kyu** a beginner programming level. At this level the kata will generally challenge users on their core language and API reference knowledge.
 * Iterating arrays and returning a subset of values
 * Basic data type manipulations
 * Basic functional or object-oriented concepts
@@ -128,8 +121,7 @@ Ranks are used to indicate progression and difficulty. Code Warriors complete Ka
 | [Growth of a Population](https://www.codewars.com/kata/563b662a59afc2b5120000c6) | [GrowthOfAPopulation.java](https://github.com/jeppestaerk/My-CodeWars-Solutions-Java/blob/master/src/main/java/kata/kyu7/GrowthOfAPopulation.java) | |
 
 
-#### 8 Kyu
-**8 kyu** a beginner level. At this level the kata is only challenging for users new to programming.
+#### **8 kyu** a beginner level. At this level the kata is only challenging for users new to programming.
 * Defining a simple function (i.e. hello world)
 * Basic variable assignments
 * Fixing basic syntax issues
