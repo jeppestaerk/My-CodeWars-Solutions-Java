@@ -32,7 +32,7 @@ jobs:
             ./cc-test-reporter before-build
             gradle clean test jacocoTestReport
             export JTR="$(find . -type f -iname '*jacocoTestReport.xml' -print -quit)"
-            ./cc-test-reporter format-coverage -d -t jacoco $JTR
+            ./cc-test-reporter format-coverage -d --add-prefix ./src/main/java/ -t jacoco $JTR
             ./cc-test-reporter upload-coverage -d
 
       - run:
