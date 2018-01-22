@@ -31,8 +31,8 @@ jacocoTestReport {
 
 sonarqube {
     properties {
-        property "sonar.organization", System.properties['SONARCLOUD_ORGANIZATION']
-        property "sonar.host.url", System.properties['SONARCLOUD_HOST']
-        property "sonar.login", System.properties['SONARCLOUD_TOKEN']
+        property "sonar.organization", System.getenv('SONARCLOUD_ORGANIZATION')
+        property "sonar.host.url", System.getenv('SONARCLOUD_HOST')
+        property "sonar.login", System.getenv('SONARCLOUD_TOKEN')
     }
 }
