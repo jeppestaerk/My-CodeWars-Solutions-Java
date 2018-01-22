@@ -36,6 +36,8 @@ jobs:
             mkdir -p ~/junit/
             find . -type f -regex ".*/build/test-results/.*xml"
             find . -type f -regex ".*/build/test-results/.*xml" -exec cp {} ~/junit/ \;
+            mkdir -p $CIRCLE_TEST_REPORTS/junit
+            cp ~/junit/*.xml $CIRCLE_TEST_REPORTS/junit/
           when: always
 
       - store_test_results:
