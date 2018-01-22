@@ -16,7 +16,7 @@ public class RecoverASecretStringFromRandomTriplets {
             char[] triplet = triplets[i];
             handleTriplet(secret, triplet);
         }
-        return secret.stream().map(e -> e.toString()).collect(Collectors.joining());
+        return secret.stream().map(Object::toString).collect(Collectors.joining());
     }
 
     private void handleTriplet(List<Character> secret, char[] triplet) {
@@ -30,7 +30,7 @@ public class RecoverASecretStringFromRandomTriplets {
             for (int i = 0; i < triplet.length; i++) {
                 if (secret.contains(triplet[i]) && i < triplet.length - 1) {
                     if (!secret.contains(triplet[i + 1])) secret.add(secret.indexOf(triplet[i]), triplet[i + 1]);
-                    else if (secret.indexOf(triplet[i]) > secret.indexOf(triplet[i])) {
+                    else if (secret.indexOf(triplet[i]) > secret.indexOf(triplet[i + 1])) {
                         secret.remove(secret.indexOf(triplet[i]));
                         secret.add(secret.indexOf(triplet[i + 1]), triplet[i]);
                     }
