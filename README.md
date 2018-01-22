@@ -5,7 +5,6 @@
 | --- | --- | --- |
 | [![CodeWars](https://www.codewars.com/users/jeppestaerk/badges/micro)](https://www.codewars.com/users/jeppestaerk) | [![CircleCI](https://circleci.com/gh/jeppestaerk/My-CodeWars-Solutions-Java.svg?style=svg)](https://circleci.com/gh/jeppestaerk/My-CodeWars-Solutions-Java) | [![Lines of Code](https://sonarcloud.io/api/badges/measure?key=io.staerk%3Acodewars&metric=ncloc)](https://sonarcloud.io/dashboard?id=io.staerk%3Acodewars) [![Tests](https://sonarcloud.io/api/badges/measure?key=io.staerk%3Acodewars&metric=test_success_density)](https://sonarcloud.io/dashboard?id=io.staerk%3Acodewars) [![Coverage](https://sonarcloud.io/api/badges/measure?key=io.staerk%3Acodewars&metric=coverage)](https://sonarcloud.io/dashboard?id=io.staerk%3Acodewars) |
 
-Quality Gate SonarCloud Coverage
 ## My Solutions
 | kyu | Codewars Kate | My Solutions |
 | --- | --- | --- |
