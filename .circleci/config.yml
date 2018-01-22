@@ -23,17 +23,7 @@ jobs:
             - ~/.gradle
           key: v1-dependencies-{{ checksum "build.gradle" }}
 
-      - run:
-          name: Run tests
-          command: |
-            curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
-            chmod +x ./cc-test-reporter
-            ./cc-test-reporter before-build
-            gradle clean test jacocoTestReport sonarqube
-            cd src/main/java/
-            ../../.././cc-test-reporter format-coverage -d --add-prefix src/main/java/ -t jacoco ../../../build/reports/jacoco/test/jacocoTestReport.xml
-            cd ../../../
-            ./cc-test-reporter upload-coverage -d --input src/main/java/coverage/codeclimate.json
+      - run: gradle clean test jacocoTestReport sonarqube
 
       - run:
           name: Save test results
