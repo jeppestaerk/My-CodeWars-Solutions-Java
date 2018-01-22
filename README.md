@@ -1,10 +1,11 @@
 # My Codewars Solutions (Java)
 
 ## Status
-| Rating | Build | Maintainability | Test Coverage |
-| --- | --- | --- | --- |
-| [![CodeWars](https://www.codewars.com/users/jeppestaerk/badges/micro)](https://www.codewars.com/users/jeppestaerk) | [![CircleCI](https://circleci.com/gh/jeppestaerk/My-CodeWars-Solutions-Java.svg?style=svg)](https://circleci.com/gh/jeppestaerk/My-CodeWars-Solutions-Java) | [![Maintainability](https://api.codeclimate.com/v1/badges/7bfe5475fc5a7393813f/maintainability)](https://codeclimate.com/github/jeppestaerk/My-CodeWars-Solutions-Java/maintainability) | [![Test Coverage](https://api.codeclimate.com/v1/badges/7bfe5475fc5a7393813f/test_coverage)](https://codeclimate.com/github/jeppestaerk/My-CodeWars-Solutions-Java/test_coverage) |
+| Rating | Build | Quality | Coverage | Bugs | Vulnerabilities |
+| --- | --- | --- | --- | --- | --- |
+| [![CodeWars](https://www.codewars.com/users/jeppestaerk/badges/micro)](https://www.codewars.com/users/jeppestaerk) | [![CircleCI](https://circleci.com/gh/jeppestaerk/My-CodeWars-Solutions-Java.svg?style=svg)](https://circleci.com/gh/jeppestaerk/My-CodeWars-Solutions-Java) | [![Quality Gate](https://sonarcloud.io/api/badges/gate?key=io.staerk%3Acodewars)](https://sonarcloud.io/dashboard?id=io.staerk%3Acodewars) | [![SonarCloud Coverage](https://sonarcloud.io/api/badges/measure?key=io.staerk%3Acodewars&metric=coverage)](https://sonarcloud.io/component_measures/metric/coverage/list?id=io.staerk%3Acodewars) | [![SonarCloud Bugs](https://sonarcloud.io/api/badges/measure?key=io.staerk%3Acodewars&metric=bugs)](https://sonarcloud.io/component_measures/metric/reliability_rating/list?id=io.staerk%3Acodewars) | [![SonarCloud Vulnerabilities](https://sonarcloud.io/api/badges/measure?key=io.staerk%3Acodewars&metric=vulnerabilities)](https://sonarcloud.io/component_measures/metric/security_rating/list?id=io.staerk%3Acodewars) |
 
+Quality Gate SonarCloud Coverage
 ## My Solutions
 | kyu | Codewars Kate | My Solutions |
 | --- | --- | --- |
