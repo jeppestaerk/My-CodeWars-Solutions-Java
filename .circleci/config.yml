@@ -39,7 +39,7 @@ jobs:
           command: |
             ./cc-test-reporter before-build
             gradle test
-            ./cc-test-reporter after-build --exit-code $EXIT_CODE?
+            ./cc-test-reporter after-build --exit-code 0
 
       - run:
           name: Save test results
