@@ -7,7 +7,7 @@ import static org.junit.Assert.assertEquals;
 public class ShortestWordTest {
     @Test
     public void findShort() {
-        assertEquals(3, ShortestWord.findShort("bitcoin take over the world maybe who knows perhaps"));
-        assertEquals(3, ShortestWord.findShort("turns out random test cases are easier than writing out basic ones"));
+        assertEquals(3, new ShortestWord().findShort("bitcoin take over the world maybe who knows perhaps"));
+        assertEquals(3, new ShortestWord().findShort("turns out random test cases are easier than writing out basic ones"));
     }
 }
