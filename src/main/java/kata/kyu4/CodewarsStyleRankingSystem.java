@@ -1,6 +1,11 @@
 package kata.kyu4;
 
 public class CodewarsStyleRankingSystem {
+
+    private CodewarsStyleRankingSystem() {
+        throw new IllegalStateException("Utility class");
+    }
+
     public static class User {
         public int rank = -8;
         public int progress = 0;
