@@ -9,7 +9,6 @@ jobs:
     environment:
       JVM_OPTS: -Xmx3200m
       TERM: dumb
-      CC_TEST_REPORTER_ID: $CC_TEST_REPORTER_ID
 
     steps:
       - checkout
@@ -35,7 +34,7 @@ jobs:
           name: Run tests
           command: |
             ./cc-test-reporter before-build
-            gradle clean test jacocoTestReport
+            gradle clean test jacocoTestReport jacocoFix
             ./cc-test-reporter after-build --coverage-input-type jacoco
 
       - run:

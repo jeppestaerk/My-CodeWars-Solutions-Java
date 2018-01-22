@@ -25,3 +25,12 @@ jacocoTestReport {
         html.enabled false
     }
 }
+
+task jacocoFix(type: Copy) {
+    from 'build/reports/jacoco/test/jacocoTestReport.xml'
+    into '../'
+    rename { String fileName ->
+        fileName.replace("jacocoTestReport.xml", "jacoco.xml")
+    }
+    filter { line -> line.replaceAll("com/", "webapp/src/main/java/com/") }
+}
