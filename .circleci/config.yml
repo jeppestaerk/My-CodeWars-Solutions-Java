@@ -35,9 +35,9 @@ jobs:
           command: |
             ./cc-test-reporter before-build
             gradle clean test jacocoTestReport
-            cp build/reports/jacoco/test/jacocoTestReport.xml src/main/java/jacoco.xml
-            cd src/main/java/
-            ./cc-test-reporter after-build --coverage-input-type jacoco --exit-code $EXIT_CODE
+#            cp build/reports/jacoco/test/jacocoTestReport.xml src/main/java/jacoco.xml
+#            cd src/main/java/
+            ./cc-test-reporter after-build --coverage-input-type jacoco --exit-code $EXIT_CODE build/reports/jacoco/test/jacocoTestReport.xml
 
       - run:
           name: Save test results
