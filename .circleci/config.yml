@@ -11,11 +11,6 @@ jobs:
       TERM: dumb
       CC_TEST_REPORTER_ID: $CC_TEST_REPORTER_ID
 
-    dependencies:
-      post:
-        - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
-        - chmod +x ./cc-test-reporter
-
     steps:
       - checkout
 
@@ -29,15 +24,22 @@ jobs:
             - ~/.gradle
           key: v1-dependencies-{{ checksum "build.gradle" }}
 
+      - run:
+          name: Setup Code Climate test-reporter
+          command: |
+            curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+            chmod +x ./cc-test-reporter
+
       - run: gradle clean
 
       - run: gradle assemble
 
-      - run: gradle test
-          pre:
-              - ./cc-test-reporter before-build
-          post:
-              - ./cc-test-reporter after-build --exit-code $EXIT_CODE
+      - run:
+          name: gradle test
+          command: |
+            ./cc-test-reporter before-build
+            gradle test
+            ./cc-test-reporter after-build --exit-code $EXIT_CODE
 
       - run:
           name: Save test results
