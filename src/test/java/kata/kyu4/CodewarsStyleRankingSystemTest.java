@@ -4,6 +4,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
 
 public class CodewarsStyleRankingSystemTest {
     CodewarsStyleRankingSystem.User user;
@@ -11,6 +12,12 @@ public class CodewarsStyleRankingSystemTest {
     @Before
     public void setup() {
         user = new CodewarsStyleRankingSystem.User();
+    }
+
+    @Test(expected = IllegalAccessException.class)
+    public void illegalStateException() throws Exception {
+        CodewarsStyleRankingSystem.class.newInstance();
+        fail("Utility class");
     }
 
     @Test(expected = IllegalArgumentException.class)
