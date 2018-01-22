@@ -13,6 +13,11 @@ public class CodewarsStyleRankingSystemTest {
         user = new CodewarsStyleRankingSystem.User();
     }
 
+    @Test
+    public void classTest() {
+        CodewarsStyleRankingSystem codewarsStyleRankingSystem = new CodewarsStyleRankingSystem();
+    }
+
     @Test(expected = IllegalArgumentException.class)
     public void invalidRangeNeg9() {
         new CodewarsStyleRankingSystem.User().incProgress(-9);
