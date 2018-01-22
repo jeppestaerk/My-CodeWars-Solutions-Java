@@ -32,8 +32,16 @@ jobs:
       - run:
           name: Save test results
           command: |
-            mkdir -p ~/junit/kyu/
-            find . -type f -regex ".*/build/test-results/.*xml" -exec cp {} ~/junit/kyu/ \;
+            mkdir -p ~/junit/kyu1/ ~/junit/kyu2/ ~/junit/kyu3/ ~/junit/kyu4/ ~/junit/kyu5/ ~/junit/kyu6/ ~/junit/kyu7/ ~/junit/kyu8/
+            find . -type f -regex ".*/build/test-results/.*kyu1.*xml" -exec cp {} ~/junit/kyu1/ \;
+            find . -type f -regex ".*/build/test-results/.*kyu2.*xml" -exec cp {} ~/junit/kyu2/ \;
+            find . -type f -regex ".*/build/test-results/.*kyu3.*xml" -exec cp {} ~/junit/kyu3/ \;
+            find . -type f -regex ".*/build/test-results/.*kyu4.*xml" -exec cp {} ~/junit/kyu4/ \;
+            find . -type f -regex ".*/build/test-results/.*kyu5.*xml" -exec cp {} ~/junit/kyu5/ \;
+            find . -type f -regex ".*/build/test-results/.*kyu6.*xml" -exec cp {} ~/junit/kyu6/ \;
+            find . -type f -regex ".*/build/test-results/.*kyu7.*xml" -exec cp {} ~/junit/kyu7/ \;
+            find . -type f -regex ".*/build/test-results/.*kyu8.*xml" -exec cp {} ~/junit/kyu8/ \;
+            find . -type f -regex ".*/build/test-results/.*^kyu[1-8].*xml" -exec cp {} ~/junit/ \;
           when: always
 
       - store_test_results:
