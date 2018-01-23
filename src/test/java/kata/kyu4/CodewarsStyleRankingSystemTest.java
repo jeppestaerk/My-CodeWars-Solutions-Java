@@ -81,6 +81,14 @@ public class CodewarsStyleRankingSystemTest {
     }
 
     @Test
+    public void rankMinus1ToPlus1() {
+        user.rank = -1;
+        user.progress = 99;
+        user.incProgress(1);
+        assertEquals(1, user.rank);
+    }
+
+    @Test
     public void rank8max() {
         user.rank = 8;
         user.progress = 110;

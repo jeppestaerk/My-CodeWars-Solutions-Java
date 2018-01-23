@@ -10,22 +10,18 @@ public class CodewarsStyleRankingSystem {
             if (aRank < -8 || aRank > 8 || aRank == 0) throw new IllegalArgumentException();
             if (this.rank < 0 && aRank > 0) aRank--;
             if (this.rank > 0 && aRank < 0) aRank++;
-            if (aRank == this.rank) this.progress += 3;
-            if (aRank == (this.rank - 1)) this.progress += 1;
-            if (aRank <= (this.rank - 2)) this.progress += 0;
-            if (aRank > this.rank) {
+            if (this.rank == aRank) this.progress += 3;
+            if (this.rank - 1 == aRank) this.progress += 1;
+            if (this.rank - 2 >= aRank) this.progress += 0;
+            if (this.rank < aRank) {
                 int d = aRank - this.rank;
                 this.progress += (10 * d * d);
             }
-            if (this.progress >= 100) {
-                while (this.progress >= 100 && this.rank < 8) {
-                    if (++this.rank == 0) this.rank++;
-                    this.progress -= 100;
-                }
+            while (this.progress >= 100 && this.rank < 8) {
+                if (++this.rank == 0) this.rank++;
+                this.progress -= 100;
             }
-            if (this.rank == 8 && this.progress > 0) {
-                this.progress = 0;
-            }
+            if (this.rank == 8 && this.progress > 0) this.progress = 0;
         }
     }
 }
