@@ -8,6 +8,7 @@
 ## My Solutions
 | kyu | Codewars Kate | My Solutions |
 | --- | --- | --- |
+| 4 | [Longest Common Subsequence (Performance version)](https://www.codewars.com/kata/593ff8b39e1cc4bae9000070) | [LongestCommonSubsequencePerformanceVersion.java](https://github.com/jeppestaerk/My-CodeWars-Solutions-Java/blob/master/src/main/java/kata/kyu4/LongestCommonSubsequencePerformanceVersion.java) |
 | 4 | [Number of Proper Fractions with Denominator d](https://www.codewars.com/kata/55b7bb74a0256d4467000070) | [NumberOfProperFractionsWithDenominatorD.java](https://github.com/jeppestaerk/My-CodeWars-Solutions-Java/blob/master/src/main/java/kata/kyu4/NumberOfProperFractionsWithDenominatorD.java) |
 | 4 | [Square into Squares. Protect trees!](https://www.codewars.com/kata/54eb33e5bc1a25440d000891) | [SquareIntoSquaresProtectTrees.java](SquareIntoSquaresProtectTrees.java) |
 | 4 | [Recover a secret string from random triplets](https://www.codewars.com/kata/53f40dff5f9d31b813000774) | [RecoverASecretStringFromRandomTriplets.java](https://github.com/jeppestaerk/My-CodeWars-Solutions-Java/blob/master/src/main/java/kata/kyu4/RecoverASecretStringFromRandomTriplets.java) |
