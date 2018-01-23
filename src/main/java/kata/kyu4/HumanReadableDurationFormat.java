@@ -20,30 +20,27 @@ public class HumanReadableDurationFormat {
         time = processYears(time, years, sb);
         time = processDays(time, days, sb);
         time = processHours(time, hours, sb);
-        time = processMinutes(time, minutes, sb);
-        time = processSeconds(time, seconds, sb);
+        processMinutes(time, minutes, sb);
+        processSeconds(seconds, sb);
         if (sb.indexOf(",") > 0) sb.replace(sb.lastIndexOf(","), sb.lastIndexOf(",") + 1, " and");
 
         return sb.toString().trim();
     }
 
-    private static int processSeconds(int time, int seconds, StringBuilder sb) {
+    private static void processSeconds(int seconds, StringBuilder sb) {
         if (seconds > 0) {
             sb.append(seconds).append(" second");
             appendS(seconds, sb);
-            time -= seconds;
         }
-        return time;
     }
 
-    private static int processMinutes(int time, int minutes, StringBuilder sb) {
+    private static void processMinutes(int time, int minutes, StringBuilder sb) {
         if (minutes > 0) {
             sb.append(minutes).append(" minute");
             appendS(minutes, sb);
             time -= minutes * 60;
             postfix(time, sb);
         }
-        return time;
     }
 
     private static void appendS(int count, StringBuilder sb) {
