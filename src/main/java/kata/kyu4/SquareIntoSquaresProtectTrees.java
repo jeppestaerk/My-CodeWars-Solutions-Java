@@ -26,11 +26,9 @@ public class SquareIntoSquaresProtectTrees {
     private long fillList(long n, long nSquare, long sum, List<Long> numbers) {
         while (sum < nSquare && --n > 0) {
             long nextNum = nextNumber((nSquare - sum), n);
-            if (!numbers.contains(nextNum)) {
-                numbers.add(nextNum);
-                n = nextNum;
-                sum += (long) Math.pow(nextNum, 2);
-            }
+            numbers.add(nextNum);
+            n = nextNum;
+            sum += (long) Math.pow(nextNum, 2);
         }
         return sum;
     }
