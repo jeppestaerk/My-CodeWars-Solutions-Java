@@ -8,7 +8,10 @@
 ## My Solutions
 | kyu | Codewars Kate | My Solutions |
 | --- | --- | --- |
-| 4 | [Reverse polish notation calculator](https://www.codewars.com/kata/52f78966747862fc9a0009ae) | [ReversePolishNotationCalculator.java.java](https://github.com/jeppestaerk/My-CodeWars-Solutions-Java/blob/master/src/main/java/kata/kyu4/ReversePolishNotationCalculator.java) |
+| 4 | [Human readable duration format](https://www.codewars.com/kata/52742f58faf5485cae000b9a) | [HumanReadableDurationFormat.java](https://github.com/jeppestaerk/My-CodeWars-Solutions-Java/blob/master/src/main/java/kata/kyu4/HumanReadableDurationFormat.java) |
+| 4 | [Roman Numerals Encoder](https://www.codewars.com/kata/51b62bf6a9c58071c600001b) | [RomanNumeralsEncoder.java](https://github.com/jeppestaerk/My-CodeWars-Solutions-Java/blob/master/src/main/java/kata/kyu4/RomanNumeralsEncoder.java) |
+| 4 | [Ten-Pin Bowling](https://www.codewars.com/kata/5531abe4855bcc8d1f00004c) | [TenPinBowling.java](https://github.com/jeppestaerk/My-CodeWars-Solutions-Java/blob/master/src/main/java/kata/kyu4/TenPinBowling.java) |
+| 4 | [Reverse polish notation calculator](https://www.codewars.com/kata/52f78966747862fc9a0009ae) | [ReversePolishNotationCalculator.java](https://github.com/jeppestaerk/My-CodeWars-Solutions-Java/blob/master/src/main/java/kata/kyu4/ReversePolishNotationCalculator.java) |
 | 4 | [Longest Common Subsequence (Performance version)](https://www.codewars.com/kata/593ff8b39e1cc4bae9000070) | [LongestCommonSubsequencePerformanceVersion.java](https://github.com/jeppestaerk/My-CodeWars-Solutions-Java/blob/master/src/main/java/kata/kyu4/LongestCommonSubsequencePerformanceVersion.java) |
 | 4 | [Number of Proper Fractions with Denominator d](https://www.codewars.com/kata/55b7bb74a0256d4467000070) | [NumberOfProperFractionsWithDenominatorD.java](https://github.com/jeppestaerk/My-CodeWars-Solutions-Java/blob/master/src/main/java/kata/kyu4/NumberOfProperFractionsWithDenominatorD.java) |
 | 4 | [Square into Squares. Protect trees!](https://www.codewars.com/kata/54eb33e5bc1a25440d000891) | [SquareIntoSquaresProtectTrees.java](SquareIntoSquaresProtectTrees.java) |
