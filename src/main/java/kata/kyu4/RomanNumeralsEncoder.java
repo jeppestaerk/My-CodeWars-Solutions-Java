@@ -4,7 +4,7 @@ import java.util.TreeMap;
 
 public class RomanNumeralsEncoder {
 
-    private final static TreeMap<Integer, String> map = new TreeMap<>();
+    private static final TreeMap<Integer, String> map = new TreeMap<>();
 
     static {
         map.put(1000, "M");

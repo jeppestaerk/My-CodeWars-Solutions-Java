@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class TenPinBowling {
-    public static int bowling_score(String f) {
+    public static int bowlingScore(String f) {
         Integer score = 0;
         List<Integer> rolls = new ArrayList<>();
         String[] frames = f.split(" ");
