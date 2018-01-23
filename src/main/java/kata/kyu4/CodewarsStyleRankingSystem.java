@@ -21,7 +21,7 @@ public class CodewarsStyleRankingSystem {
                 if (++this.rank == 0) this.rank++;
                 this.progress -= 100;
             }
-            if (this.rank == 8 && this.progress > 0) this.progress = 0;
+            if (this.rank == 8) this.progress = 0;
         }
     }
 }

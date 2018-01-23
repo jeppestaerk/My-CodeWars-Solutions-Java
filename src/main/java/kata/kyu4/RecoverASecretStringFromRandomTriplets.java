@@ -23,24 +23,32 @@ public class RecoverASecretStringFromRandomTriplets {
         Boolean pristine = true;
         for (char ch : triplet) if (secret.contains(ch)) pristine = false;
         if (pristine) {
-            for (char ch : triplet) {
-                secret.add(ch);
-            }
+            handlePristineTriplet(secret, triplet);
         } else {
-            for (int i = 0; i < triplet.length; i++) {
-                if (secret.contains(triplet[i]) && i < triplet.length - 1) {
-                    if (!secret.contains(triplet[i + 1])) secret.add(secret.indexOf(triplet[i]), triplet[i + 1]);
-                    else if (secret.indexOf(triplet[i]) > secret.indexOf(triplet[i + 1])) {
-                        secret.remove(secret.indexOf(triplet[i]));
-                        secret.add(secret.indexOf(triplet[i + 1]), triplet[i]);
-                    }
+            handleDirtyTriplet(secret, triplet);
+        }
+    }
+
+    private void handlePristineTriplet(List<Character> secret, char[] triplet) {
+        for (char ch : triplet) {
+            secret.add(ch);
+        }
+    }
+
+    private void handleDirtyTriplet(List<Character> secret, char[] triplet) {
+        for (int i = 0; i < triplet.length; i++) {
+            if (secret.contains(triplet[i]) && i < triplet.length - 1) {
+                if (!secret.contains(triplet[i + 1])) secret.add(secret.indexOf(triplet[i]), triplet[i + 1]);
+                else if (secret.indexOf(triplet[i]) > secret.indexOf(triplet[i + 1])) {
+                    secret.remove(secret.indexOf(triplet[i]));
+                    secret.add(secret.indexOf(triplet[i + 1]), triplet[i]);
                 }
-                if (secret.contains(triplet[i]) && i > 0) {
-                    if (!secret.contains(triplet[i - 1])) secret.add(secret.indexOf(triplet[i]), triplet[i - 1]);
-                    else if (secret.indexOf(triplet[i]) < secret.indexOf(triplet[i - 1])) {
-                        secret.remove(secret.indexOf(triplet[i]));
-                        secret.add(secret.indexOf(triplet[i - 1]) + 1, triplet[i]);
-                    }
+            }
+            if (secret.contains(triplet[i]) && i > 0) {
+                if (!secret.contains(triplet[i - 1])) secret.add(secret.indexOf(triplet[i]), triplet[i - 1]);
+                else if (secret.indexOf(triplet[i]) < secret.indexOf(triplet[i - 1])) {
+                    secret.remove(secret.indexOf(triplet[i]));
+                    secret.add(secret.indexOf(triplet[i - 1]) + 1, triplet[i]);
                 }
             }
         }
