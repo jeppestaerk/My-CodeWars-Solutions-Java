@@ -40,7 +40,7 @@ public class SquareIntoSquaresProtectTrees {
     }
     private long nextNumber(long restSum, long n) {
         long tempSum = (long) Math.pow(n, 2);
-        while (n > 0 && tempSum > restSum) tempSum = (long) Math.pow(--n, 2);
+        while (tempSum > restSum) tempSum = (long) Math.pow(--n, 2);
         return n;
     }
 }
