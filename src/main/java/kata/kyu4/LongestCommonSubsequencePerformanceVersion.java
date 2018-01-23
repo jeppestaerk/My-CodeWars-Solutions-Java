@@ -42,11 +42,14 @@ public class LongestCommonSubsequencePerformanceVersion {
                 j--;
         }
 
+        return getString(temp, lcs);
+    }
+
+    private static String getString(int temp, char[] lcs) {
         StringBuilder sb = new StringBuilder();
         for (int k = 0; k <= temp; k++) {
             sb.append(lcs[k]);
         }
-
         return sb.deleteCharAt(temp).toString();
     }
 }
