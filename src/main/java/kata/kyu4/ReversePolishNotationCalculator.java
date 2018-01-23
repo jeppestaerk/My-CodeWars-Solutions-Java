@@ -1,11 +1,12 @@
 package kata.kyu4;
 
-import java.util.Stack;
+import java.util.ArrayDeque;
+import java.util.Deque;
 
 public class ReversePolishNotationCalculator {
     public double evaluate(String expr) {
         if (expr.isEmpty()) return 0d;
-        Stack<String> stack = new Stack<>();
+        Deque<String> stack = new ArrayDeque<>();
         String[] sArray = expr.split(" ");
         for (int i = 0; i < sArray.length; i++) {
             String ch = sArray[i];
