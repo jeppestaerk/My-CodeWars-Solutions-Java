@@ -8,6 +8,7 @@
 ## My Solutions
 | kyu | Codewars Kate | My Solutions |
 | --- | --- | --- |
+| 4 | [Decode the Morse code, advanced](https://www.codewars.com/kata/54b72c16cd7f5154e9000457) | [DecodeTheMorseCodeAdvanced.java](https://github.com/jeppestaerk/My-CodeWars-Solutions-Java/blob/master/src/main/java/kata/kyu4/DecodeTheMorseCodeAdvanced.java) |
 | 4 | [Human readable duration format](https://www.codewars.com/kata/52742f58faf5485cae000b9a) | [HumanReadableDurationFormat.java](https://github.com/jeppestaerk/My-CodeWars-Solutions-Java/blob/master/src/main/java/kata/kyu4/HumanReadableDurationFormat.java) |
 | 4 | [Roman Numerals Encoder](https://www.codewars.com/kata/51b62bf6a9c58071c600001b) | [RomanNumeralsEncoder.java](https://github.com/jeppestaerk/My-CodeWars-Solutions-Java/blob/master/src/main/java/kata/kyu4/RomanNumeralsEncoder.java) |
 | 4 | [Ten-Pin Bowling](https://www.codewars.com/kata/5531abe4855bcc8d1f00004c) | [TenPinBowling.java](https://github.com/jeppestaerk/My-CodeWars-Solutions-Java/blob/master/src/main/java/kata/kyu4/TenPinBowling.java) |
