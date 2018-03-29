@@ -20,6 +20,7 @@
 | 4 | [Codewars style ranking system](https://www.codewars.com/kata/51fda2d95d6efda45e00004e) | [CodewarsStyleRankingSystem.java](https://github.com/jeppestaerk/My-CodeWars-Solutions-Java/blob/master/src/main/java/kata/kyu4/CodewarsStyleRankingSystem.java) |
 | 5 | [Scramblies](https://www.codewars.com/kata/55c04b4cc56a697bb0000048) | [Scramblies.java](https://github.com/jeppestaerk/My-CodeWars-Solutions-Java/blob/master/src/main/java/kata/kyu5/Scramblies.java) |
 | 5 | [Convert string to camel case](https://www.codewars.com/kata/517abf86da9663f1d2000003) | [ConvertStringToCamelCase.java](https://github.com/jeppestaerk/My-CodeWars-Solutions-Java/blob/master/src/main/java/kata/kyu5/ConvertStringToCamelCase.java) |
+| 6 | [Sort the odd](https://www.codewars.com/kata/578aa45ee9fd15ff4600090d) | [SortTheOdd.java](https://github.com/jeppestaerk/My-CodeWars-Solutions-Java/blob/master/src/main/java/kata/kyu6/SortTheOdd.java) |
 | 6 | [Vasya - Clerk](https://www.codewars.com/kata/555615a77ebc7c2c8a0000b8) | [VasyaClerk.java](https://github.com/jeppestaerk/My-CodeWars-Solutions-Java/blob/master/src/main/java/kata/kyu6/VasyaClerk.java) |
 | 6 | [Dubstep](https://www.codewars.com/kata/551dc350bf4e526099000ae5) | [Dubstep.java](https://github.com/jeppestaerk/My-CodeWars-Solutions-Java/blob/master/src/main/java/kata/kyu6/Dubstep.java) |
 | 6 | [Triple trouble](https://www.codewars.com/kata/55d5434f269c0c3f1b000058) | [TripleTrouble.java](https://github.com/jeppestaerk/My-CodeWars-Solutions-Java/blob/master/src/main/java/kata/kyu6/TripleTrouble.java) |
