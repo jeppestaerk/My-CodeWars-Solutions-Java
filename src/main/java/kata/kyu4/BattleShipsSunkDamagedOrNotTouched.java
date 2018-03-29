@@ -1,77 +1,56 @@
 package kata.kyu4;
 
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
 public class BattleShipsSunkDamagedOrNotTouched {
+    private static final String SUNK = "sunk";
+    private static final String DAMAGED = "damaged";
+    private static final String NOT_TOUCHED = "notTouched";
+    private static final String POINTS = "points";
 
     public static Map<String, Double> damagedOrSunk(final int[][] board, final int[][] attacks) {
-        Map<String, Double> result = new HashMap<String, Double>();
-        System.out.println("board = [" + Arrays.deepToString(board) + "], attacks = [" + Arrays.deepToString(attacks) + "]");
-        System.out.println("x.len = " + board[0].length + " y.len = " + board.length);
-        int xOffset = 1;
-        int yOffset = board.length;
-        System.out.println("xOffset = " + xOffset);
-        System.out.println("yOffset = " + yOffset);
-        int ship1 = 0;
-        int ship1hits = 0;
-        int ship2 = 0;
-        int ship2hits = 0;
-        int ship3 = 0;
-        int ship3hits = 0;
-        int ships = 0;
-        double sunk = 0.0;
-        double damaged = 0.0;
-        double notTouched = 0.0;
 
-        for (int i = 0; i < board.length; i++) {
-            for (int j = 0; j < board[i].length; j++) {
-                if (board[i][j] == 1) ship1++;
-                else if (board[i][j] == 2) ship2++;
-                else if (board[i][j] == 3) ship3++;
-            }
-        }
-        if (ship1 > 0) ships++;
-        if (ship2 > 0) ships++;
-        if (ship3 > 0) ships++;
+        Map<Integer, Integer> shipsPre = new HashMap<>();
+        Map<Integer, Integer> shipsPost = new HashMap<>();
+        Map<String, Double> result = new HashMap<>();
 
-        System.out.println("ship1 = " + ship1);
-        System.out.println("ship2 = " + ship2);
-        System.out.println("ship3 = " + ship3);
-        System.out.println("ships = " + ships);
-
-        for (int i = 0; i < attacks.length; i++) {
-            System.out.println("Attack: " + attacks[i][0] + ", " + attacks[i][1]);
-            int x = attacks[i][0] - xOffset;
-            int y = yOffset - attacks[i][1];
-            System.out.println("x = " + x);
-            System.out.println("y = " + y);
-            int hit = board[y][x];
-            System.out.println("hit = " + hit);
-
-            if (hit == 1) ship1hits++;
-            if (hit == 2) ship2hits++;
-            if (hit == 3) ship3hits++;
-        }
-
-        if (ship1 > 0 && ship1hits > 0 && ship1hits < ship1) damaged++;
-        if (ship1 > 0 && ship1hits > 0 && ship1hits == ship1) sunk++;
-        if (ship1 > 0 && ship1hits == 0) notTouched++;
-
-        if (ship2 > 0 && ship2hits > 0 && ship2hits < ship2) damaged++;
-        if (ship2 > 0 && ship2hits > 0 && ship2hits == ship2) sunk++;
-        if (ship2 > 0 && ship2hits == 0) notTouched++;
-
-        if (ship3 > 0 && ship3hits > 0 && ship3hits < ship3) damaged++;
-        if (ship3 > 0 && ship3hits > 0 && ship3hits == ship3) sunk++;
-        if (ship3 > 0 && ship3hits == 0) notTouched++;
-
-        result.put("sunk", sunk);
-        result.put("damaged", damaged);
-        result.put("notTouched", notTouched);
-        result.put("points", (sunk * 1.0) + (damaged * 0.5) + (notTouched * -1.0));
+        checkBoard(board, shipsPre);
+        runAttacks(board, attacks);
+        checkBoard(board, shipsPost);
+        validateGame(shipsPre, shipsPost, result);
+        calculatePoints(result);
 
         return result;
+    }
+
+    private static void calculatePoints(Map<String, Double> result) {
+        result.put(SUNK, result.getOrDefault(SUNK, 0.0));
+        result.put(DAMAGED, result.getOrDefault(DAMAGED, 0.0));
+        result.put(NOT_TOUCHED, result.getOrDefault(NOT_TOUCHED, 0.0));
+        result.put(POINTS, (result.getOrDefault(SUNK, 0.0) * 1.0) + (result.getOrDefault(DAMAGED, 0.0) * 0.5) + (result.getOrDefault(NOT_TOUCHED, 0.0) * -1.0));
+    }
+
+    private static void validateGame(Map<Integer, Integer> shipsPre, Map<Integer, Integer> shipsPost, Map<String, Double> result) {
+        shipsPre.forEach((key, valPre) -> {
+            Integer valPost = shipsPost.getOrDefault(key, 0);
+            if (valPre == valPost) result.put(NOT_TOUCHED, 1 + result.getOrDefault(NOT_TOUCHED, 0.0));
+            else if (valPost > 0) result.put(DAMAGED, 1 + result.getOrDefault(DAMAGED, 0.0));
+            else if (valPost == 0) result.put(SUNK, 1 + result.getOrDefault(SUNK, 0.0));
+        });
+    }
+
+    private static void runAttacks(int[][] board, int[][] attacks) {
+        for (int[] attack : attacks) {
+            board[board.length - attack[1]][attack[0] - 1] = 0;
+        }
+    }
+
+    private static void checkBoard(int[][] board, Map<Integer, Integer> shipsPre) {
+        for (int[] row : board) {
+            for (int val : row) {
+                if (val > 0) shipsPre.put(val, 1 + shipsPre.getOrDefault(val, 0));
+            }
+        }
     }
 }
