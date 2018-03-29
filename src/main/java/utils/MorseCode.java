@@ -8,7 +8,7 @@ public class MorseCode {
     private static final Map<String, String> map;
 
     static {
-        map = new HashMap<String, String>();
+        map = new HashMap<>();
         map.put(".-", "A");
         map.put("-...", "B");
         map.put("-.-.", "C");
